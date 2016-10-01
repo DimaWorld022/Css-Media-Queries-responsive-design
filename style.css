@@ -35,7 +35,6 @@ a:hover, a:active {
 
 .mainContent a:hover, a:active {
 	color: #FFF;
-	
 }
 
 .mainheader img {
@@ -58,19 +57,17 @@ a:hover, a:active {
 }
 
 .mainheader nav ul li {
-	float: left;
 	display: inline;
 }
 
 .mainheader nav ul li a {
-	height: 100px;
+	
 }
 
 .mainheader nav a:link, .mainheader nav a:visited {
 	color: #FFF;
 	display: inline-block;
 	padding: 25px 25px;
-	height: 50px;
 }
 
 .mainheader nav a:hover, .mainheader nav a:active,
@@ -87,6 +84,7 @@ a:hover, a:active {
 }
 
 .mainContent {
+	margin-top: 50px;
 	line-height: 25px;		 
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -252,7 +250,7 @@ a:hover, a:active {
 	}
 
 	.mainheader nav a:link, .mainheader nav a:visited {					
-		height: 10px;
+
 		display: block;	
 		margin: 2px 50px 0px 20px;
 		padding: 15px 25px;
