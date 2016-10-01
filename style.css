@@ -35,6 +35,7 @@ a:hover, a:active {
 
 .mainContent a:hover, a:active {
 	color: #FFF;
+	
 }
 
 .mainheader img {
@@ -61,10 +62,14 @@ a:hover, a:active {
 	display: inline;
 }
 
+.mainheader nav ul li a {
+	height: 100px;
+}
+
 .mainheader nav a:link, .mainheader nav a:visited {
 	color: #FFF;
 	display: inline-block;
-	padding: 15px 25px;
+	padding: 25px 25px;
 	height: 50px;
 }
 
@@ -72,6 +77,7 @@ a:hover, a:active {
 .mainheader nav .active a:link, .mainheader nav .active a:visited {
 	background-color: #E3A2FF;
 	text-shadow: none;
+	
 }
 
 .mainheader nav ul li a {
@@ -90,6 +96,13 @@ a:hover, a:active {
 .content {
 	width: 70%;	
 	float: left; 
+	margin-top: -50px;
+}
+
+.sidebarscontent {
+	width: 29%;
+	float: right;
+ 	margin-top: -34px;
 }
 
 .post-info {
@@ -119,34 +132,27 @@ a:hover, a:active {
 
 
 .top-sidebar {	
-	width: 27%;
-	float: left;	
+	height: auto;
 	background-color:  #FFF;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	margin: 1.5% 0 2% 3%;
-	padding: 2% 3%;	
-	
+	margin: 0% 0 2% 3%;
+	padding: 2% 3%;
 }
 
 
 .middle-sidebar {
-	width: 27%;
-	float: left;	
 	background-color:  #FFF;	
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	margin: 0% 0 2% 3%;
 	padding: 2% 3%;
-	
 }
 
 
 .bottom-sidebar {
-	width: 27%;
-	float: left;	
 	background-color:  #FFF;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -176,51 +182,52 @@ a:hover, a:active {
 
 
 
-@media only screen and ( min-width: 150px ) and ( max-width: 750px ) {
+@media only screen and ( min-width: 150px ) and ( max-width: 900px ) {
 
-
-	.mainheader img {
-		width: 50%;
-		margin-left: 140px;
-	}
-
+	.mainheader nav {
+		height: 50px;
+		margin-top: 2%;
+}
 	.mainheader nav ul li {
-		margin-left: 25px;
+		margin-left: 50px;
 		font-size: 80%;
 	}
 
 	.content {
 		width: 100%;	
-		float: left; 
 	}
-
-	.top-sidebar, .middle-sidebar, .bottom-sidebar {	
-		width: 100%;
-		float: left;	
-		margin: 3% 0 0% 0%;
-		padding: 2% 3%;		
-	}
-}
-
-@media only screen and ( min-width: 150px ) and ( max-width: 680px ) {
-
-	.mainheader nav ul li {
-		margin-left: 25px;
-		font-size: 70%;
-	}
-
+	
 	.mainheader img {
 		width: 50%;
-		margin-left: 120px;
+		margin-left: 170px;
 	}
-
+	
+	.sidebarscontent {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.top-sidebar, .middle-sidebar, .bottom-sidebar {
+		float: left;
+		width: 90%;
+		margin: 10px 0px 0px 15px;
+	}
 }
 
-@media only screen and ( min-width: 150px ) and ( max-width: 600px ) {
+@media only screen and ( min-width: 150px ) and ( max-width: 618px ) {
+
+	.mainheader nav ul li {
+		margin-left: 15px;
+		font-size: 70%;
+	}
+	
+	
+}
+
+@media only screen and ( min-width: 150px ) and ( max-width: 740px ) {
 
 	.body {
 		width: 90%;											
-		font-size: 100%;
+		font-size: 80%;
 		background-color: #D8D8D8;
 	}
 
@@ -229,9 +236,8 @@ a:hover, a:active {
 		margin-left: 0;
 	}
 
-
 	.mainheader nav {
-		height: 200px;
+		height: 170px;
 		margin-top: 2%;
 }
 
@@ -242,31 +248,26 @@ a:hover, a:active {
 	.mainheader nav ul li {
 		width: 100%;
 		text-align: center;
+		margin-left: 10px;
 	}
 
 	.mainheader nav a:link, .mainheader nav a:visited {					
-		padding: 15px 25px;
-		height: 50px;
+		height: 10px;
 		display: block;	
-		margin: 0px 50px 0px 0px;
-		
+		margin: 2px 50px 0px 20px;
+		padding: 15px 25px;
 	}	
 
 	.content {
 		width: 100%;	
 		float: left; 
+		margin-top: 10px;
 	}
 
 	.post-info {
 		display: none;								
 	}
 
-	.top-sidebar, .middle-sidebar, .bottom-sidebar {	
-		width: 100%;
-		float: left;	
-		margin: 3% 0 0% 0%;
-		padding: 2% 3%;		
-	}
 
 	.mainFooter {
 		width: 100%;
